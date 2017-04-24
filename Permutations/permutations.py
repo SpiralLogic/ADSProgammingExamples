@@ -29,7 +29,7 @@ def sumOfN(N):
 
 def permute(N):
     """
-    Find the permutations for a given et of N elements and outouts the information to a file
+    Find the permutations for a given et of N elements and outputs the information to a file
     The information in the output will include
     The number of permutations
     the base_10, base_1, sum and permutation for each N!

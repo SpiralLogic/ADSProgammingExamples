@@ -9,10 +9,10 @@ from a random vertex
 Usage:
 
 File Version:
-prac10.py [filename]
+ecircuit.py [filename]
 
 De Bruijn
-prac10.py [N] [M] [Start Vertex]
+ecircuit.py [N] [M] [Start Vertex]
 
 """
 import random
@@ -407,9 +407,9 @@ if __name__ == "__main__":
     else:
         print("Invalid arguments")
         print("Must be of form:")
-        print("prac10.py [n] [m] [start vertex]")
+        print("ecircuit.py [n] [m] [start vertex]")
         print("or")
-        print("prac10.py filename")
+        print("ecircuit.py filename")
         exit()
 
 """

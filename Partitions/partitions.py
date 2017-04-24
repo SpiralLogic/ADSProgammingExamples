@@ -21,7 +21,6 @@ python task1.py [filename] -v
 Find the distance between 2 words
 python task1.py [filename] [word1] [word2]
 
-
 """
 import sys, timeit
 
@@ -83,14 +82,18 @@ class Vertex:
             for y in x.edges:
                 if word_to_find is not None and y.word == word_to_find:
                     return dist[x.word] + 1
+
                 if y not in visited:  # O(1) lookup provided by pythons sets
                     # O(1) lookup provided by pythons dictionary dictionary as hashmap
                     distance = dist[x.word] + 1
                     dist[y.word] = distance  # O(1) insert provided by python dictionary as hashmap
+
                     if distance > max_distance:
                         max_distance = distance
+
                     Q.append(y)
                     visited.add(y)  # O(1) insert provided by python set
+
         if word_to_find is not None:
             return -1
         return max_distance
@@ -98,6 +101,7 @@ class Vertex:
     def __lt__(self, vertex):
         """
         Allow comparison for vertices, this is used in sorting
+
         :param vertex: vertex to compared
         :return: True this vertex is less than the vertex compared to
         """
@@ -200,11 +204,15 @@ class Graph:
         with open(filename, "r") as file:
             for line in file:
                 word = Vertex(line.rstrip("\n"))
+
                 if word_length is None:
                     word_length = len(word)
+
                 if len(word) != word_length:
                     raise ValueError("Strings not all of the same size")
+
                 self.vertices.append(word)
+
         print("Finding edges...")
         self.find_edges()
 
@@ -238,18 +246,23 @@ class Graph:
             merge_sort(self.vertices)
             edge_set = [self.vertices[0]]
             for i in range(1, len(self.vertices)):
+
                 if self.vertices[i - 1].word[:word_len - 1] == self.vertices[i].word[:word_len - 1]:
                     edge_set.append(self.vertices[i])
+
                 else:
                     self.addEdgeSet(edge_set)
                     edge_set = [self.vertices[i]]
+
             self.addEdgeSet(edge_set)
+
             for i in range(len(self.vertices)):
                 self.vertices[i].rotate_word()
 
     def addEdgeSet(self, edge_set):
         """
         links a set of words together
+
         :param edge_set: the set of edges to link together
         :return:
         """
@@ -280,13 +293,16 @@ class Graph:
         print("Assigning partitions...")
         num_to_partition = len(self.vertices)
         self.partitions = []
-        partitioned = set()  # a python set is used to keep track of when each vertex is assigned a partition
+
+        # a python set is used to keep track of when each vertex is assigned a partition
+        partitioned = set()
         start = self.vertices[0]
         start.partition = len(self.partitions)
         Q = [start]
         partitioned.add(start)
         current_partition = Partition(len(self.partitions))
         current_partition.add_vertex(start)
+
         # while there are still unpartitioned vertices
         while num_to_partition:
             while len(Q):  # BFS to find all vertices attached
@@ -298,6 +314,7 @@ class Graph:
                         current_partition.add_vertex(edge)
                         Q.append(edge)
                         num_to_partition -= 1
+
             # BFS done partition is complete, add it to the partition list
             self.partitions.append(current_partition)
 

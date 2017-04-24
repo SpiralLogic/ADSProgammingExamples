@@ -9,10 +9,10 @@ Will calculate and plot the optimal cost and optimal path for a 3D set of points
 
 To calculate the optimal path for a point summary run:
 
-python [filename]
+python polyline.py [filename]
 
 e.g.
-python points_file1.txt
+python polyline.py points_file1.txt
 
 """
 

@@ -7,7 +7,7 @@ Given a parameter n, enumerates all subsets of a set containing n elements in th
 
 
 usage:
-python task3.py [n]
+python greycodes.py [n]
 
 """
 import string
