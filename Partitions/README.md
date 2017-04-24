@@ -14,17 +14,17 @@ Connected Components: How many partitions were found from the dictionary file
 
 ## Several options are available
 
-Find and print all the vertices in the largest partition
+Find and print all the vertices in the largest partition<br>
 python task1.py [filename]
 
-Print the connected components
+Print the connected components<br>
 python task1.py [filename] -cc
 
-Find and print the partitions and all their vertices
+Find and print the partitions and all their vertices<br>
 python task1.py [filename] -p
 
-Find and print the vertices and edges
+Find and print the vertices and edges<br>
 python task1.py [filename] -v
 
-Find the distance between 2 words
+Find the distance between 2 words<br>
 python task1.py [filename] [word1] [word2]

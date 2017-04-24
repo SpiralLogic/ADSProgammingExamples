@@ -5,9 +5,9 @@ two strings are connected when the end of one string is the lame as the start of
 
 For example, these strings are connected:
 
-this string-
--his strings-
---is strings -
+this string-<br>
+-his strings-<br>
+--is strings -<br>
 
 
 
