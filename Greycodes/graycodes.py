@@ -47,7 +47,7 @@ def generate_set(codes):
     001 = [a]
     011 = [ab]
 
-    The bit position determines whether the character form lowercase ascii should be in the set or not
+    The bit position determines whether the character from lowercase ascii should be in the set or not
 
     This is done using bitwise operations on each of the grey codes to determine whether a character should exist in
     the set
@@ -86,13 +86,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-"""
-
-my current best evaluations:
-
-
-3. Space
-
-O(2^|N|) where n is the number of elements
-"""

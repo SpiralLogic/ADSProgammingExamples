@@ -489,27 +489,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""
-
-my current best evaluations:
-
-1.
-Space Complexity between any 2 given vertex:
-O(|V| +|E|)
-
-Space complexity of partitions:
-O(|V| + |P| + |E|)
-
-Space for finding diameter of the partitions:
-O(|V| + |E| + |P|)
-
-2.
-Space complexity of finding primes:
-O(|N|) n is the number of composites to find
-
-
-3. Space
-
-O(2^|N|) where n is the number of elements
-"""
