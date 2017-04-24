@@ -9,6 +9,10 @@ this string-<br>
 -his strings-<br>
 --is strings -<br>
 
+The output is the reconstruction of all of the strings from the input file
+
+
+
 
 
 
