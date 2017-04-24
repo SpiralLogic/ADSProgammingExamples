@@ -8,9 +8,9 @@ Words are linked when they differ only by one letter:
 house -> mouse -> moose -> loose
 
 ## Definitions
-Partition: group of words that can reach each other<br>
-Vertex: a word in a partiton<br>
-Connected Components: How many partitions were found from the dictionary file<br>
+<b>Partition:</b> group of words that can reach each other<br>
+<b>Vertex:</b> a word in a partiton<br>
+<b>Connected Components:</b> How many partitions were found from the dictionary file<br>
 
 ## Several options are available
 

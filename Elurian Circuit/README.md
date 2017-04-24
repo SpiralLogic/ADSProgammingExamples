@@ -23,7 +23,7 @@ Some String
 
 
 #### Example
-python ecicuit.py substrings1.txt 
+python ecircuit.py wordstrings.txt 
 
 # Complexities
 
