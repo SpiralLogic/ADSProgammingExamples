@@ -1,7 +1,7 @@
 # Partitions
 
 This program takes a dictionary of words with the same number of letters and then partitions those words depending
-on whether they can be reach one another in the following way:
+on whether they can  reach one another in the following way:
 
 Words are linked when they differ only by one letter:
 
@@ -15,19 +15,19 @@ house -> mouse -> moose -> loose
 ## Several options are available
 
 Find and print all the vertices in the largest partition<br>
-python permutations.py [filename]
+<code>python permutations.py [filename]</code>
 
 Print the connected components<br>
-python permutations.py [filename] -cc
+<code>python permutations.py [filename] -cc</code>
 
 Find and print the partitions and all their vertices<br>
-python permutations.py [filename] -p
+<code>python permutations.py [filename] -p</code>
 
 Find and print the vertices and edges<br>
-python permutations.py [filename] -v
+<code>python permutations.py [filename] -v</code>
 
 Find the distance between 2 words<br>
-python permutations.py [filename] [word1] [word2]
+<code>python permutations.py [filename] [word1] [word2]</code>
 
 # Complexities
 
@@ -41,7 +41,7 @@ Space for finding diameter of the partitions:<br>
 O(|V| + |E| + |P|)
 
 
-Examples (operating on a 5500 word list)
+Examples (operating on a 5700 word list)
 --
 <code>python partitions.py words5letter.txt -cc</code>
 <pre>Reading file...
