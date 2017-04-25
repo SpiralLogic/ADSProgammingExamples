@@ -15,11 +15,16 @@ Optimal cost:  479.5907431934928
 Optimal path:  [0, 10, 17, 32, 36, 43, 53, 60, 69]
 </pre>
 
+![Image of point_file5.txt](https://github.com/srjen3/ADSProgammingExamples/raw/master/3D%20Polyline%20Optimisations/Images/points_file5.png)
+
+
 <code>python polyline.py points_file3.txt</code>
 <pre>Calculating optimal cost and path for 70 points
 Optimal cost:  404.9891645821268
 Optimal path:  [0, 1, 13, 19, 22, 25, 28, 35, 40, 50, 56, 69]
 </pre>
+
+![Image of point_file3.txt](https://github.com/srjen3/ADSProgammingExamples/raw/master/3D%20Polyline%20Optimisations/Images/points_file3.png)
 
 # Complexities
 
