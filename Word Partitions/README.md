@@ -41,7 +41,7 @@ Space for finding diameter of the partitions:<br>
 O(|V| + |E| + |P|)
 
 
-Examples
+Examples (operating on a 5500 word list)
 --
 <code>python partitions.py words5letter.txt -cc</code>
 <pre>Reading file...
