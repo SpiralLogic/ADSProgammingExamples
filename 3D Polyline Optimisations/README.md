@@ -6,6 +6,21 @@ The points are plotted using the Matplotlib library
 
 What determines an optimal path is described in the PDF provided
 
+Examples
+--------
+
+<code>python polyline.py points_file5.txt</code>
+<pre>Calculating optimal cost and path for 70 points
+Optimal cost:  479.5907431934928
+Optimal path:  [0, 10, 17, 32, 36, 43, 53, 60, 69]
+</pre>
+
+<code>python polyline.py points_file3.txt</code>
+<pre>Calculating optimal cost and path for 70 points
+Optimal cost:  404.9891645821268
+Optimal path:  [0, 1, 13, 19, 22, 25, 28, 35, 40, 50, 56, 69]
+</pre>
+
 # Complexities
 
 Complexity is O(N^3)
