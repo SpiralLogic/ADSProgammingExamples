@@ -9,7 +9,7 @@ Finds the optimal path through a set of 3D points
 ### Eularian Circuits
 Finds a Eularian Circuit for a set of linked strings
 
-### Gneome Radix Sort
+### Genome Radix Sort
 Segments and sorts a genome sequence using radix sort
 
 ### GreyCodes
