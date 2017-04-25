@@ -6,7 +6,7 @@ These Python 3 programs were created for FIT2004 Algorithms and Data Structures 
 ### 3D Polyline Optimisations
 Finds the optimal path through a set of 3D points
 
-### Eularian Circuits
+### Eulerian Circuits
 Finds a Eularian Circuit for a set of linked strings
 
 ### Genome Radix Sort

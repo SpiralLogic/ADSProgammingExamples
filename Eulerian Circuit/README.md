@@ -1,6 +1,6 @@
-# Eularian Circuit
+# Eulerian Circuit
 
-This program takes an input of strings  of the same length and finds a eularian ciruit that connects them all
+This program takes an input of strings  of the same length and finds a Eulerian circuit that connects them all
 two strings are connected when the end of one string is the lame as the start of another
 
 For example, these strings are connected (- is not part of the string):
