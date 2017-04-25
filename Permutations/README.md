@@ -2,25 +2,42 @@
 
 Creates a permutation of a given set of letters.
 
-The permutation will find each possible permutation of the set of letters and list them in order such that only one letter changes with each permutation
+The permutation will find each possible permutation of the set of letters and list them in order such that only one letter changes with each permutation.
+A second option on input is to calculate the minimum transpositions between strings
 i.e<br>
 abcd<br>
 abdc<br>
 acbd<br>
 acdb <br>
 
-
 etc.
-
 
 A Factorial based number system is used to achieve this
 
+Permutations Example
+--
+<code>python permutations.py</code>
+<pre>1. Calculate permutations for a given N
+2. Calculate the minimum transpositions between 2 strings
+Selection: 1
+N: 6
+Output written to: permutations.txt
+</pre>
+
+Transpositions Example
+--
+<code>python permutations.py</code>
+<pre>1. Calculate permutations for a given N
+2. Calculate the minimum transpositions between 2 strings
+Selection: 2
+String 1: stuff
+String 2: ftufs
+Number of swaps from stuff to ftufs: 6
+</pre>
 
 # Other Information
 
 ###### How is this weighted average growing asymptotically as a function of N? Justify your answer with a clear reasoning.
-
-
 The weighted average is growing asymptotically as a function N^2
 
 mathematically, the weighted average is half of the maximum. This is because the frequency is

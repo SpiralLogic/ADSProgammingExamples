@@ -4,16 +4,18 @@
 This program finds a set of letters that differ by only 1 letter. With no 2 codes being repeated.
 Every combination of the number of letters provided is generated</p>
 
-python greycodes.py 2
-<blockquote>
+Examples
+--
+<code>python greycodes.py 2</code>
+<pre>
 []<br>
 [a]<br>
 [ab]<br>
 [b]<br>
-</blockquote>
+</pre>
 
-python greycodes.py 2
-<blockquote>
+<code>python greycodes.py 2</code>
+<pre>
 []<br>
 [a]<br>
 [ab]<br>
@@ -21,7 +23,7 @@ python greycodes.py 2
 [abc]<br>
 [ac]<br>
 [c]<br>
-</blockquote>
+</pre>
 
 # Complexities
 

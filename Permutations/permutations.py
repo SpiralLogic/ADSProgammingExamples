@@ -39,7 +39,7 @@ def permute(N):
     :param N: The size of the set of elements
 
     """
-    filename = "fit2004_lab4_output.txt"
+    filename = "permutations.txt"
 
     # So some basic validation
     try:
